@@ -242,6 +242,7 @@
   <java-symbol type="attr" name="windowFixedHeightMinor" />
   <java-symbol type="attr" name="accessibilityFocusedDrawable"/>
 
+  <java-symbol type="bool" name="set_wifi_hotspot_security_none" />
   <java-symbol type="bool" name="action_bar_embed_tabs" />
   <java-symbol type="bool" name="action_bar_embed_tabs_pre_jb" />
   <java-symbol type="bool" name="action_bar_expanded_action_views_exclusive" />
@@ -326,6 +327,9 @@
   <java-symbol type="integer" name="config_wifi_framework_wifi_score_good_link_speed_5" />
   <java-symbol type="integer" name="config_wifi_framework_scan_result_rssi_level_patchup_value" />
   <java-symbol type="integer" name="config_wifi_framework_current_network_boost" />
+  <java-symbol type="string" name="def_wifi_wifihotspot_ssid" />
+  <java-symbol type="string" name="def_wifi_wifihotspot_pass" />
+  <java-symbol type="string" name="def_wifi_direct_name" />
   <java-symbol type="string"  name="config_wifi_random_mac_oui" />
   <java-symbol type="integer"  name="config_wifi_network_switching_blacklist_time" />
 
