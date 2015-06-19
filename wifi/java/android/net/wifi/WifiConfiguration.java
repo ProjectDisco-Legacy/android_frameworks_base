@@ -873,6 +873,12 @@ public class WifiConfiguration implements Parcelable {
      */
     public HashMap<String, Integer>  linkedConfigurations;
 
+    /**
+     * @hide
+     * Duplicate Wifi Configuration
+     */
+    public boolean duplicateNetwork;
+
     public WifiConfiguration() {
         networkId = INVALID_NETWORK_ID;
         SSID = null;
