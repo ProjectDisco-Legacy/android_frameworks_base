@@ -122,6 +122,12 @@ public interface BluetoothProfile {
     public static final int HEADSET_CLIENT = 16;
 
     /**
+     * HID device
+     * @hide
+     */
+    static public final int HID_DEVICE = 17;
+
+    /**
      * Default priority for devices that we try to auto-connect to and
      * and allow incoming connections for the profile
      * @hide
