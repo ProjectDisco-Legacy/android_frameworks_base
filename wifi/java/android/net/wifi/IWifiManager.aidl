@@ -19,6 +19,7 @@ package android.net.wifi;
 import android.net.wifi.BatchedScanResult;
 import android.net.wifi.BatchedScanSettings;
 import android.net.wifi.WifiConfiguration;
+import android.net.wifi.WifiEapSimInfo;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.ScanSettings;
 import android.net.wifi.WifiChannel;
@@ -158,5 +159,7 @@ interface IWifiManager
     WifiConnectionStatistics getConnectionStatistics();
 
     void disableEphemeralNetwork(String SSID);
+
+    WifiEapSimInfo getSimInfo();
 }
 
